@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* overflow-y: auto; */
+  border: 2px solid hsl(212, 53%, 60%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  box-sizing: border-box;
+  resize: vertical; 
+}
+
+.header {
+  margin-bottom: 20px;
+  color: rgba(67, 99, 241);
+}
+
+.underline {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(67, 99, 241);
+  margin-top: 20px;
+}
+
+.redAsterisk {
+  color: red;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.reportDescription {
+  color: rgba(67, 99, 241);
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+
+.button1 {
+  flex: 1;
+  margin: 0 30px;
+  background-color: red;
+  color: white;
+}
+
+.button2 {
+  flex: 1;
+  margin: 0 30px;
+  background-color: red;
+  color: white;
+}
+
+.button3 {
+  flex: 1;
+  margin: 0 30px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+
+
+
+.buttonRow span {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: green;
+}
+
+.AddIcon {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 20px;
+  margin-left: 95%;
+  margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
